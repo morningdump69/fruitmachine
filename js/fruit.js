@@ -58,4 +58,6 @@ function spinReel(reel) {
 
 const update_theScrene = () => {
   document.getElementById("balanceDisplay").innerHTML = balance;
+
+  if (balance == 0) resizeTo.style.display = "inline";
 };
